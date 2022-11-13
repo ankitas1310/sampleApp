@@ -1,11 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-
 * Live URL for this Application
   This application is deployed on Heroku Platform with GET Request URL
 
