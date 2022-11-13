@@ -16,6 +16,7 @@ Things you may want to cover:
   Some sample input and expected output
 
    input "Amazon is company"
-   output "Amazon:tm:"
+   output "Amazon© is company
 
-* ...
+   input "Oracle is company"
+   output "Oracle© is company
