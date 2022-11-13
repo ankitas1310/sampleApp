@@ -5,20 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+* Live URL for this Application
+  This application is deployed on Heroku Platform with GET Request URL
 
-* Configuration
+  https://ankita-assignment.herokuapp.com/get_correct_string
 
-* Database creation
+  this will need parameter * input_string
 
-* Database initialization
+  Some sample input and expected output
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+   input "Amazon is company"
+   output "Amazon:tm:"
 
 * ...
