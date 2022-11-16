@@ -9,7 +9,7 @@ class ApisController < ApplicationController
        arr_value = params["input_string"].split
        arr_value.each_with_index {|av,ai| 
        	  Rails.application.config.companies.each_with_index {|bv,bi| 
-       	    if (av.titleize == bv)
+       	    if (av.titleize == bv.titleize)
               arr_value[ai] = arr_value[ai] + "\u00A9".force_encoding('UTF-8')
             end
           }
